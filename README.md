@@ -11,7 +11,7 @@ One can think of filtering an image as taking the pixels of some original image,
 
 In the **helpers.h** file, I wrote 4 functions, such that a user can apply *grayscale*, *reflection*, *blur*, or, *edge detection* filters to their images.
 
-I mapped the different pixels of the image, traverse the 2D arrays and index into them, applying modifications to the pixel’s value and its neighbouring values to create the different filters.
+I map the different pixels of the image, traverse the 2D arrays and index into them, applying modifications to the pixel’s value and its neighbouring values to create the different filters.
 
 - The *function grayscale* takes an image and turns it into a black-and-white version of the same image.
 - The *reflect function* should take an image and reflect it horizontally.
