@@ -1,7 +1,4 @@
 # Filter
-I implement a program that applies filters to BMP (bitmap) images, using C.
-
-
 I implemented a C program that applies filters to Bitmaps (BMP’s). 
 
 Starter code was provided for this project, which I completed in the context of **Harvard University X**’s **[Introduction to Computer Science course](https://cs50.harvard.edu/x/2020/)**. 
