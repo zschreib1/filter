@@ -14,9 +14,9 @@ In the **helpers.h** file, I wrote 4 functions, such that a user can apply *gray
 I map the different pixels of the image, traverse the 2D arrays and index into them, applying modifications to the pixel’s value and its neighbouring values to create the different filters.
 
 - The *function grayscale* takes an image and turns it into a black-and-white version of the same image.
-- The *reflect function* should take an image and reflect it horizontally.
-- The *blur  function* should take an image and turn it into a box-blurred version of the same image.
-- The *edges function* should take an image and highlight the edges between objects, according to the Sobel operator.
+- The *reflect function* takes an image and reflect it horizontally.
+- The *blur  function* takes an image and turn it into a box-blurred version of the same image.
+- The *edges function* takes an image and highlight the edges between objects, according to the Sobel operator.
 
 
 Click [here](https://cs50.harvard.edu/x/2020/psets/4/filter/more/#:~:text=Implement%20a%20program%20that%20applies%20filters%20to%20BMPs,%20per%20the%20below) for more information about the specifications for the project. Please do **not** directly use the source code as it is **only** for reference. Plagiarism is strictly prohibited by both Harvard University and the edX platform. See academic honesty for details.
